@@ -11,7 +11,7 @@ export default function App() {
   return (
     <ProductProvider>
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-ecommerce-final">
         <NavBar />
         
         <Routes>
