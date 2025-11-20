@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jona912.github.io/react-ecommerce-final/",
+  "homepage": "http://jona912.github.io/react-ecommerce-final",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
