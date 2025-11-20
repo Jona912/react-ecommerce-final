@@ -27,7 +27,7 @@ export default function CheckoutForm() {
     const ref = await addDoc(collection(db, "orders"), order);
 
     setOrderId(ref.id);
-    clear();
+    
   };
 
   if (orderId) {
@@ -50,6 +50,7 @@ export default function CheckoutForm() {
             cart.forEach(item => {
                 total += item.price * item.quantity;
             });
+            clear();
             return total.toFixed(2);
             })()}</strong></p>
           <p className="buyer-info">
